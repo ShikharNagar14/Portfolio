@@ -4,18 +4,18 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Glowing Stars Background */
+/* 🌌 Glowing Stars Background */
 .star-bg {
   background: transparent url("https://www.transparenttextures.com/patterns/stardust.png");
   background-size: 600px 600px;
-  animation: starsMove 100s linear infinite;
-  opacity: 0.25; /* increase for stronger presence */
+  animation: starsMove 120s linear infinite;
+  opacity: 0.3;
   pointer-events: none;
   z-index: 0;
 
-  /* 👇 Glow effect */
-  filter: brightness(2.2) drop-shadow(0 0 4px rgba(255, 255, 255, 0.4));
-  mix-blend-mode: screen; /* helps blend glow with dark bg */
+  /* 🔥 Enhanced Glow Effect */
+  filter: brightness(2.5) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+  mix-blend-mode: screen;
 }
 
 @keyframes starsMove {
@@ -23,44 +23,46 @@
     background-position: 0 0;
   }
   100% {
-    background-position: -1200px 1200px;
+    background-position: -1600px 1600px;
   }
 }
 
-/* 🔮 Main glow heading text */
+/* 🌈 Vibrant Glow Heading */
 @keyframes pulseGlow {
   0% {
-    text-shadow: 0 0 2px #a855f7;
+    text-shadow: 0 0 3px #f472b6;
   }
   50% {
-    text-shadow: 0 0 5px #6366f1;
+    text-shadow: 0 0 10px #60a5fa;
   }
   100% {
-    text-shadow: 0 0 2px #a855f7;
+    text-shadow: 0 0 3px #f472b6;
   }
 }
 
 .glow-text {
   animation: pulseGlow 3s ease-in-out infinite;
   color: #ffffff;
+  font-weight: 600;
 }
 
-/* ✨ Minimal glow for Snehal Suman */
+/* 🌟 Neon Gradient for Name */
 @keyframes nameSoftGlow {
   0% {
-    text-shadow: 0 0 0.5px #8b5cf6;
+    text-shadow: 0 0 1px #0ea5e9;
   }
   50% {
-    text-shadow: 0 0 1px #8b5cf6;
+    text-shadow: 0 0 4px #38bdf8;
   }
   100% {
-    text-shadow: 0 0 0.5px #8b5cf6;
+    text-shadow: 0 0 1px #0ea5e9;
   }
 }
 
 .gradient-name {
-  background: linear-gradient(to right, #a855f7, #6366f1);
+  background: linear-gradient(to right, #f472b6, #60a5fa, #34d399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: nameSoftGlow 4s ease-in-out infinite;
+  font-weight: 600;
 }

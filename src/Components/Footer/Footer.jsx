@@ -87,7 +87,7 @@ const Footer = () => {
       {/* Bottom Contact Icons */}
       <div className="flex gap-4 mt-10">
         <a
-          href="https://www.linkedin.com/in/snehal-suman/"
+          href="https://www.linkedin.com/in/shikhar-nagar-648418252/"
           className="hover:text-purple-400 transition"
           target="_blank"
           rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const Footer = () => {
           <CiLinkedin size={28} />
         </a>
         <a
-          href="https://github.com/snehalsuman"
+          href="https://github.com/shikharnagar14"
           className="hover:text-purple-400 transition"
           target="_blank"
           rel="noopener noreferrer"
@@ -103,20 +103,20 @@ const Footer = () => {
           <FaGithub size={26} />
         </a>
         <a
-          href="mailto:snehals0203@gmail.com"
+          href="mailto:shikharnagar1@gmail.com"
           className="hover:text-purple-400 transition"
         >
           <MdOutlineEmail size={26} />
         </a>
         <a
-          href="tel:+919142883832"
+          href="tel:+918527952405"
           className="hover:text-purple-400 transition"
         >
           <FiPhone size={24} />
         </a>
         {/* Instagram Icon */}
         <a
-          href="https://www.instagram.com/_snehal__2919/"
+          href="https://www.instagram.com/shikhar_gurjar_13/"
           className="hover:text-purple-400 transition"
           target="_blank"
           rel="noopener noreferrer"
@@ -127,7 +127,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-10 text-center text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} Snehal Suman. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Shikhar Nagar. All rights reserved.</p>
       </div>
     </div>
   );

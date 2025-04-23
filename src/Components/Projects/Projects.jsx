@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ezzgrow from "../../assets/ezzgrow.png";
-import chatty from "../../assets/socialink.png";
-import weather from "../../assets/weather.png";
+import bharatKhata from "../../assets/bharatKhata.png";
+import mail from "../../assets/mail.png";
+import resume from "../../assets/resume.png";
 
 const Projects = () => {
   return (
@@ -13,25 +13,25 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
         <ProjectCard
-          title="Ezzgrow"
-          main="A Next.js platform for business consulting with modern UI/UX."
-          image={ezzgrow}
-          demoLink="https://ezzgrow.vercel.app/"
-          codeLink="https://github.com/snehalsuman/ezzgrow-main/tree/main/ezzgrow-final-main"
+          title="Bharat Khata"
+          main="A modern React.js-based platform designed for seamless business transactions, featuring an intuitive and responsive UI/UX for enhanced user engagement and operational efficiency."
+          image={bharatKhata}
+          demoLink="https://bharat-khata.web.app/"
+          codeLink="https://github.com/shikharnagar14"
         />
         <ProjectCard
-          title="Socialink"
-          main="A real-time chat app with React, Node.js, Socket.io & MongoDB."
-          image={chatty}
-          demoLink="https://socialink-chat.vercel.app/"
-          codeLink="https://github.com/snehalsuman/chatapp-backend/tree/main/src"
+          title="Smart Email Assistant"
+          main="A web application extension that enables auto-generated email replies, built using React for the frontend and Spring Boot for the backend."
+          image={mail}
+          demoLink="https://github.com/shikharnagar14"
+          codeLink="https://github.com/shikharnagar14"
         />
         <ProjectCard
-          title="Weather App"
-          main="A weather forecast app using React, Tailwind & APIs to display real time weather data."
-          image={weather}
-          demoLink="https://weather-app-99.vercel.app/"
-          codeLink="https://github.com/snehalsuman/Weather-App"
+          title="AI Resume Generator"
+          main="An intelligent resume generator web application built with React and Spring Boot, enabling users to create professional resumes effortlessly using AI-powered suggestions."          
+          image={resume}
+          demoLink="https://github.com/shikharnagar14"
+          codeLink="https://github.com/shikharnagar14"
         />
       </div>
     </div>

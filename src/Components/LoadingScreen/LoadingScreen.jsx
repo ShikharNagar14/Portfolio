@@ -5,7 +5,7 @@ import "./LoadingScreen.css";
 const LoadingScreen = ({ onFinish }) => {
   const [show, setShow] = useState(true);
   const [nameIndex, setNameIndex] = useState(0);
-  const fullName = "Snehal Suman";
+  const fullName = "Shikhar Nagar";
 
   useEffect(() => {
     const typingInterval = setInterval(() => {

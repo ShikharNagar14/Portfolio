@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const TextChange = () => {
-  const texts = ["Hi, I'm Snehal Suman", "Frontend Developer", "Backend Developer"];
+  const texts = ["Hi, I'm Shikhar Nagar", "Android Developer", "Backend Developer","Frontend Developer"];
   const [currenText, setCurrentText] = useState("");
   const [endValue, setendValue] = useState(0);
   const [isForward, setIsForward] = useState(true);

@@ -45,7 +45,7 @@ const About = () => {
                   Frontend Developer
                 </h3>
                 <p className="text-sm md:text-md text-gray-200">
-                  Passionate about crafting responsive and user-friendly web interfaces using technologies like <strong>HTML5, CSS3, JavaScript, React.js, Next.js</strong>, and <strong>TypeScript</strong>. Experienced in turning design systems into fully functional, pixel-perfect web applications with a focus on performance and accessibility. Skilled with tools like <strong>Figma</strong> and <strong>Canva</strong> for seamless UI/UX collaboration.
+                  Passionate about crafting responsive and user-friendly web interfaces using technologies like <strong>HTML5, CSS3, JavaScript, Java, SpringBoot</strong>, and <strong>TypeScript</strong>. Experienced in turning design systems into fully functional, pixel-perfect web applications with a focus on performance and accessibility. Skilled with tools like <strong>Figma</strong> and <strong>Canva</strong> for seamless UI/UX collaboration.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const About = () => {
                   Backend Developer
                 </h3>
                 <p className="text-sm md:text-md text-gray-200">
-                  Skilled in developing scalable and secure backend systems using <strong>Node.js, Express.js</strong>, and <strong>Spring Boot</strong>. Proficient in designing RESTful APIs and integrating them with robust databases like <strong>MongoDB, MySQL</strong>. Comfortable working with technologies like <strong>Docker</strong>, and applying clean code principles in backend architecture.
+                  Skilled in developing scalable and secure backend systems using <strong>Java, SpringBoot</strong>, and <strong>Node.js</strong>. Proficient in designing RESTful APIs and integrating them with robust databases like <strong>MongoDB, MySQL</strong>. Comfortable working with technologies like <strong>Docker</strong>, and applying clean code principles in backend architecture.
                 </p>
               </div>
             </div>

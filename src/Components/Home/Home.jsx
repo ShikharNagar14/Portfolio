@@ -17,16 +17,18 @@ const Home = () => {
       >
         <TextChange />
         <p className="text-sm md:text-xl mt-4 font-extralight tracking-wide text-white/90 leading-relaxed">
-          Pursuing B.Tech (Hons) in Full Stack Software Development and looking forward
-          to learning and enhancing my skills as a passionate full stack developer.
-          I have a good analytical and problem-solving ability with a keen and enthusiastic
-          nature of acquiring knowledge.
+        Currently pursuing a B.Tech (Hons) in Full Stack Software Development,
+        with a strong passion for building end-to-end digital solutions. I am
+        eager to continuously learn and grow as a full stack developer, with a
+        solid foundation in analytical thinking and problem-solving. My enthusiastic
+        approach to acquiring new skills and technologies drives me to constantly 
+        improve and take on new challenges
         </p>
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 mt-6 md:mt-10">
           <a
-            href="https://drive.google.com/file/d/1GrhLzslE_0vzKarOjE0Db7nJrTfTN73T/view?usp=drive_link"
+            href="https://drive.google.com/file/d/14O0peI8wrDJRITLhvLiWRqMpTUXTKdtb/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold px-6 py-3 rounded-full hover:scale-105 hover:opacity-90 transition-all duration-300 shadow-lg shadow-purple-900/40"
@@ -35,7 +37,7 @@ const Home = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1yF8XmnSo_5xSNe-0jjqse3gryJmHrtzq/view?usp=sharing"
+            href="https://drive.google.com/file/d/10MenGJkCE-GS3YyGUSaxXCrHNOGzAkBp/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-semibold px-6 py-3 rounded-full hover:scale-105 hover:opacity-90 transition-all duration-300 shadow-lg shadow-cyan-900/40"

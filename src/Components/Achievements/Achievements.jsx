@@ -32,7 +32,7 @@ const Achievements = () => {
                 DSA Proficiency
               </h3>
               <p className="text-sm md:text-md text-gray-200">
-                Solved <strong>450+ DSA problems</strong> on LeetCode and achieved a coding score of <strong>1215</strong> on GeeksforGeeks.
+                Solved <strong>800+ DSA problems</strong> on LeetCode and achieved a coding score of <strong>1215</strong> on GeeksforGeeks.
               </p>
             </div>
           </div>
@@ -50,10 +50,10 @@ const Achievements = () => {
             <FaRocket size={28} className="text-pink-400 mt-1" />
             <div>
               <h3 className="text-2xl font-bold text-pink-300 mb-2">
-                Startup Journey
+                Badges
               </h3>
               <p className="text-sm md:text-md text-gray-200">
-                Received <strong>INR 20K seed funding</strong> for <strong>EzzGrow</strong> and generated <strong>INR 77K in revenue</strong> through real-world clients.
+                Achieved <strong>5 star</strong> Ratings on<strong> Hackerrank</strong> in Problem Solving.
               </p>
             </div>
           </div>
